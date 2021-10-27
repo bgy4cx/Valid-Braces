@@ -1,0 +1,22 @@
+{
+  "name": "valid-braces",
+  "version": "1.0.0",
+  "description": "Valid braces KATA",
+  "main": "vb.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgy4cx/Valid-Braces.git"
+  },
+  "author": "György Végh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgy4cx/Valid-Braces/issues"
+  },
+  "homepage": "https://github.com/bgy4cx/Valid-Braces#readme",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
