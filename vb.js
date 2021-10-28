@@ -1,9 +1,5 @@
 function validBraces(braces){
-  if (typeof braces == 'string') {
-    return true;
-  } else {
-    return false;
-  }
+  return (typeof braces == 'string')
 }
 
 module.exports = validBraces;
