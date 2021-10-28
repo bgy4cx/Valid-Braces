@@ -16,7 +16,7 @@ What is considered Valid?
 ### Guardinas
 
 - [x] Input has to be a string.
-- Input has to be noempty.
+- [X] Input has to be noempty.
 - Input can be these chars: ()[]{}.
 - Output has to be a boolean.
 
