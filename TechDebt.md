@@ -8,4 +8,9 @@
 ## 2. checkpont
 
 - The code can determine that the string is emptry or not.
-- It was combined with the string checker part.
+- It was combined with the string checker part in a guardians function.
+
+## 3. checkpont
+
+- The code let to process only the valid characters.
+- This checker was added to the guardians function.

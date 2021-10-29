@@ -17,7 +17,7 @@ What is considered Valid?
 
 - [x] Input has to be a string.
 - [X] Input has to be noempty.
-- Input can be these chars: ()[]{}.
+- [X] Input can be these chars: ()[]{}.
 - Output has to be a boolean.
 
 ### Process

@@ -14,9 +14,9 @@ test('Is it not empty?', () => {
 });
 
 test('Are them valid chars?', () => {
-  expect(validBraces("{a}")).toBe(false);
+  expect(guardians("{a}")).toBe(false);
 });
 
 test('Are them valid chars?', () => {
-  expect(validBraces("{}")).toBe(true);
+  expect(guardians("{}")).toBe(true);
 });
