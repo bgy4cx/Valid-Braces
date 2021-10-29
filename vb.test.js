@@ -20,3 +20,11 @@ test('Are them valid chars?', () => {
 test('Are them valid chars?', () => {
   expect(guardians("{}")).toBe(true);
 });
+
+test('Is it valid order?', () => {
+  expect(validBraces("{[()]}")).toBe(true);
+});
+
+test('Is it valid order?', () => {
+  expect(validBraces("){}(")).toBe(false);
+});
