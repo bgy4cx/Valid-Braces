@@ -16,3 +16,7 @@ test('Is it not empty?', () => {
 test('Are them valid chars?', () => {
   expect(validBraces("{a}")).toBe(false);
 });
+
+test('Are them valid chars?', () => {
+  expect(validBraces("{}")).toBe(true);
+});
