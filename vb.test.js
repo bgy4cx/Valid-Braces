@@ -1,12 +1,18 @@
-const validBraces = require('./vb');
+const {validBraces, guardians} = require('./vb'); 
+
+
 test('Is it a string?', () => {
-  expect(validBraces("()")).toBe(true);
+  expect(guardians("()")).toBe(true);
 });
 
 test('Is it a string?', () => {
-  expect(validBraces(1)).toBe(false);
+  expect(guardians(1)).toBe(false);
 });
 
 test('Is it not empty?', () => {
-  expect(validBraces("")).toBe(false);
+  expect(guardians("")).toBe(false);
+});
+
+test('Are them valid chars?', () => {
+  expect(validBraces("{a}")).toBe(false);
 });

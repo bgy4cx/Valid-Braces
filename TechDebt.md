@@ -8,4 +8,4 @@
 ## 2. checkpont
 
 - The code can determine that the string is emptry or not.
-- It was combined with the string checker part. 
+- It was combined with the string checker part.
