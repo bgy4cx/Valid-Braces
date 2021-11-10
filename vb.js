@@ -12,7 +12,32 @@ function guardians(braces) {
 
 function validBraces(braces){ 
   if (guardians(braces)) {
-
+    let output = true;
+    let expectedBraces = [];
+    if (braces.length % 2 == 0) {
+      braces.split("").forEach(function(ch,i,b){
+        switch(ch) {
+          case '(':
+            expectedBraces.push(')');
+            break;
+          case '{':
+            expectedBraces.push('}');
+            break;
+          case '[':
+            expectedBraces.push(']');
+            break;
+          default:
+            if (expectedBraces[expectedBraces.length - 1] != ch) {
+              output = false;
+            } else {
+              expectedBraces.pop();
+            }
+        }
+      })
+    } else {
+      output = false;
+    }
+    return output; 
   }  
 } 
 

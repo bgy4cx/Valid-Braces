@@ -18,8 +18,8 @@ What is considered Valid?
 - [x] Input has to be a string.
 - [X] Input has to be noempty.
 - [X] Input can be these chars: ()[]{}.
-- Output has to be a boolean.
+- [X] Output has to be a boolean.
 
 ### Process
 
-- The code should determines if the order of the braces is valid.
+- [X] The code should determines if the order of the braces is valid.

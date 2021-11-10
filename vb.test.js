@@ -28,3 +28,11 @@ test('Is it valid order?', () => {
 test('Is it valid order?', () => {
   expect(validBraces("){}(")).toBe(false);
 });
+
+test('Is it valid order?', () => {
+  expect(validBraces("{[()}]")).toBe(false);
+});
+
+test('Is it valid order?', () => {
+  expect(validBraces("({})[({})]")).toBe(true);
+});
