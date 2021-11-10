@@ -15,7 +15,7 @@ function validBraces(braces){
     let output = true;
     let expectedBraces = [];
     if (braces.length % 2 == 0) {
-      braces.split("").forEach(function(ch,i,b){
+      braces.split("").forEach(function(ch){
         switch(ch) {
           case '(':
             expectedBraces.push(')');
