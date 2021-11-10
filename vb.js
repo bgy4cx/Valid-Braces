@@ -18,11 +18,7 @@ function validBraces(braces){
       braces.split("").forEach(function(ch,i,b){
         switch(ch) {
           case '(':
-            expectedBraces.push(')');
-            break;
           case '{':
-            expectedBraces.push('}');
-            break;
           case '[':
             expectedBraces.push(']');
             break;
