@@ -18,3 +18,4 @@
 ## 4. checkpoint
 
 - The code can determine the wrong sequence.
+- I removed the unnecessary code block from the swich case conditions.
